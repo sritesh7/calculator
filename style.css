@@ -1,0 +1,142 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*display: grid;
+    place-items: center; *
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+
+.calculator{
+    padding: 15px;
+    box-shadow: 0 0 15px #000;
+    border: 2px solid rgb(166, 114, 114);
+    border-radius: 15px;
+}
+
+.display input{
+    width: 360px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    color: #000000;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: #0c0000;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background: transparent
+    color(#ffffff);
+    font-size: 25px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 17%;
+    box-shadow: -10px -10px 15px #000;
+    outline: 1px solid #313131;
+    outline-offset: 3px;
+    cursor: pointer;
+}
+
+button:active{
+    background: #000000;
+    transform: translate(2px, 2px);
+}
+
+.opr{
+    color: #ff0019;
+    background: translate(2px, 2px);
+    font-size: 700;
+}
+
+#eqBtn{
+    background: orangered;
+    font-weight: 900;
+}*/
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*display: grid;
+    place-items: center; */
+    background: linear-gradient(45deg,#fefafa,#3a4452);
+}
+.calculator {
+    width: 300px;
+    background: #0f141a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 100, 0.4);
+}
+
+.display input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    text-align: right;
+    font-size: 32px;
+    color: white;
+    outline: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    background: #1a1f25;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.05),
+                inset 3px 3px 6px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: white;
+    color: black; /* so the text stays visible */
+}
+
+button:hover {
+    background: #222831;
+}
+
+.opr {
+    color: yellow;
+}
+
+#eqBtn {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
